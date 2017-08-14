@@ -2,7 +2,7 @@
 //  TableViewCell.m
 //  NavigationAndCustom
 //
-//  Created by Thinkive on 2017/8/9.
+//  Created by Teo on 2017/8/9.
 //  Copyright © 2017年 Teo. All rights reserved.
 //
 
