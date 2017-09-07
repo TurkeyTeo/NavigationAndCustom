@@ -72,7 +72,6 @@ UIAppearanceContainer是用于Class实现的协议，通常是ViewController，�
   
 ***
 
-
 ### UINavigationController：
 
 UINavigationController管理堆栈视图控制器和一个导航栏，它用来组织有层次关系的视图。如果一个navigation controller是内嵌在 tabbar controller中，他会使用堆栈底部的view controller 的标题和工具栏属性。
@@ -90,11 +89,9 @@ UINavigationController管理堆栈视图控制器和一个导航栏，它用来�
 ...
 
 
-
 #### UINavigationBar
 
 最典型的用法就是放在屏幕顶端，包含着各级视图的导航按钮。它主要的几个属性是左按钮（返回按钮）、中心标题，以及可选的右按钮（实际上UINavigationBar并没有这些属性，其实是使用到其中的UINavigationItem）
-
 
 
 #### UINavigationItem
