@@ -205,6 +205,10 @@ UINavigationController管理堆栈视图控制器和一个导航栏，它用来�
   ```
 
   或者使用runtime实现，具体可查看[FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) 以及雨神的[iOS利用Runtime自定义控制器POP手势动画](http://www.jianshu.com/p/d39f7d22db6c)
+  
+  - 在info.plist文件中` View controller-based status bar appearance`
+-> YES，则控制器对状态栏设置的优先级高于application
+-> NO，则以application为准，控制器设置状态栏prefersStatusBarHidden是无效的
 
 - 在plist中设置status bar 的`Status bar is initially hidden`属性为YES，启动时会隐藏状态栏，（**注意：当 `Status bar is initially hidden` 设置为 `NO` 时，不管 `View controller-based status bar appearance` 设置为 `NO` 还是 `YES` ，都是无效的，只有 `Status bar is initially hidden` 设置为 `YES` 的时候， `View controller-based status bar appearance` 才生效**）
 
